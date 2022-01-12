@@ -1,0 +1,26 @@
+{
+  "name": "ahj_http_1_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "kill": "Taskkill /IM node.exe /F"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "formidable": "^2.0.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koajs-cors": "^1.0.9",
+    "uuid": "^8.3.2",
+    "ws": "^8.3.0"
+  }
+}
